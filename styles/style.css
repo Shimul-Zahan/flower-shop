@@ -116,3 +116,23 @@ header{
     text-decoration-line: underline;
     padding: 32px 0 128px;
 }
+
+/* Delivery part */
+.delivery-container{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.delivery-container h1{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+}
