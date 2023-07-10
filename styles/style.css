@@ -13,6 +13,9 @@
     font-weight: 700;
     border: none;
 }
+span{
+    color: #E55473;
+}
 .padding{
     padding: 0 240px;
     margin: 0 auto;
@@ -135,4 +138,35 @@ header{
     font-weight: 600;
     line-height: 35px;
     margin-top: 24px;
+}
+
+/* .hot-deal-container */
+.hot-deal-container{
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 429px 0 395px;
+    gap: 186px;
+}
+.hot-deal-sell-off{
+    text-align: center;
+}
+.sell-off-title{
+    max-width: 537px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+.sell-off-desc{
+    max-width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 32px;
 }
