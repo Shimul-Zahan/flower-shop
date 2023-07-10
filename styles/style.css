@@ -222,6 +222,43 @@ header{
     outline: none;
 }
 
+/* Blog Section */
+.blog-container h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 42px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+    gap: 240px;
+}
+.blog-card{
+    height: 450px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px whitesmoke;
+}
+.blog-card img{
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blog-title{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+.blog-desc{
+    font-size: 17px;
+    padding: 10px 5px;
+}
+
+
 /* footer part */
 footer{
     height: 450px;
