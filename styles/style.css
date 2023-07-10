@@ -57,8 +57,8 @@ header{
     width: 1920px;
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
-    margin-bottom: 178px;
     margin: 0 auto;
+    margin-bottom: 178px;
 }
 
 .header-content{
