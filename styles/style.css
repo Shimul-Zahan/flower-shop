@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Lato';
 }
+
+/* Here some common class */
 .btn-primary{
     padding: 20px 43px;
     border-radius: 8px;
@@ -40,7 +42,7 @@ span{
     text-align: center;
 }
 .subtitle{
-    max-width: 594px;;
+    max-width: 594px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -52,10 +54,11 @@ span{
 
 /* Header paert */
 header{
-    /* width: 1920px; */
+    width: 1920px;
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
     margin-bottom: 178px;
+    margin: 0 auto;
 }
 
 .header-content{
@@ -139,6 +142,7 @@ header{
 
 /* .hot-deal-container */
 .hot-deal-container{
+    width: 1920px;
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -171,6 +175,7 @@ header{
 /* Instagram image container */
 .instragram{
     margin-bottom: 128px;
+    width: 1920px;
 }
 .instagram-image-container{
     display: flex;
