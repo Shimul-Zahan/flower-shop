@@ -267,6 +267,7 @@ header{
 
 /* footer part */
 footer{
+    width: 1920px;
     height: 450px;
     background: #111010;
     padding: 128px 0;
