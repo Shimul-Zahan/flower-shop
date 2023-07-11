@@ -268,11 +268,11 @@ header{
 /* footer part */
 footer{
     width: 1920px;
+    margin: 0 auto;
     height: 450px;
     background: #111010;
     padding: 128px 0;
     text-align: center;
-    margin: 0 auto;
 }
 .footer-title{
     color: #ffffff;
