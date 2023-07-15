@@ -3,14 +3,15 @@
 @media screen and (max-width: 576px) {
     header{
         width: 100%;
-        background-color: red;
+        height: 100%;
+
     }
     .header-content{
-        padding: 10px;
+        padding: 30px 30px 0; 
         flex-direction: column;
     }
     .header-title{
-        font-size: 40px;
+        font-size: 44px;
     }
     .header-subtitle{
         width: 450px;
@@ -23,12 +24,12 @@
     /* featured part */
     .featured-flower-container{
         width: 100%;
-        background-color: yellow;
         padding: 0;
     }
     .featured-flower-cards{
         flex-direction: column;
         width: 100%;
+        gap: 0;
     }
     .featured-flower-image-container{
         width: 350px;
@@ -44,8 +45,7 @@
         width: 100%;
         flex-direction: column;
         height: 600px;
-        padding: 0;
-        background-color: red;
+        padding: 30px;
     }
 
     /* hot deal */
@@ -53,8 +53,7 @@
         width: 100%;
         flex-direction: column;
         height: 100%;
-        padding: 0;
-        background-color: yellow;
+        padding: 30px;
     }
     .hot-deal-container img{
         height: 500px;
@@ -69,12 +68,12 @@
     /* instragram */
     .instragram{
         width: 100%;
-        padding: 20px;
-        background-color: red;
+        padding: 0;
     }
     .instagram-image-container{
         width: 100%;
         flex-direction: column;
+        padding: 0 120px;
     }
     .instragram .subtitle{
         width: 400px;
@@ -82,28 +81,25 @@
 
     /* latest deal */
     .latest-deal-container{
-        width: 400px;
+        width: 100%;
         height: 350px;
         flex-direction: column;
-        background-color: yellow;
 
     }
     .latest-deal-subscribe input{
-        padding-left: 20px;
+        padding-left: 50px;
         width: 300px;
     }
 
     /* latest product */
     .blog{
         flex-direction: column;
-        background-color: red;
     }
 
     /* footer */
     footer{
         width: 100%;
-        padding: 0;
-        background-color: red;
+        padding: auto 0;
     }
     .footer-subtitle{
         width: 400px;
